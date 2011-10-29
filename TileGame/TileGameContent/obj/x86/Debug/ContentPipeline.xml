@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Tiles\se_free_dirt_texture.jpg</Source>
+      <Name>Tiles\se_free_dirt_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\Tiles\se_free_dirt_texture.xnb</Output>
+      <Time>2011-05-16T21:03:25.8178131-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\se_free_grass_texture.jpg</Source>
+      <Name>Tiles\se_free_grass_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\Tiles\se_free_grass_texture.xnb</Output>
+      <Time>2011-05-16T21:03:25.8188131-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\se_free_ground_texture.jpg</Source>
+      <Name>Tiles\se_free_ground_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\Tiles\se_free_ground_texture.xnb</Output>
+      <Time>2011-05-16T21:03:25.8408144-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\se_free_mud_texture.jpg</Source>
+      <Name>Tiles\se_free_mud_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\Tiles\se_free_mud_texture.xnb</Output>
+      <Time>2011-05-16T21:03:25.8558152-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\se_free_road_texture.jpg</Source>
+      <Name>Tiles\se_free_road_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\Tiles\se_free_road_texture.xnb</Output>
+      <Time>2011-05-16T21:03:25.9058181-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\se_free_rock_texture.jpg</Source>
+      <Name>Tiles\se_free_rock_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\Tiles\se_free_rock_texture.xnb</Output>
+      <Time>2011-05-16T21:03:25.9308195-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\se_free_wood_texture.jpg</Source>
+      <Name>Tiles\se_free_wood_texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\Tiles\se_free_wood_texture.xnb</Output>
+      <Time>2011-05-16T21:03:25.9518207-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\rocks.png</Source>
+      <Name>Tiles\rocks</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\Tiles\rocks.xnb</Output>
+      <Time>2011-05-24T19:56:34.5377596-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\amg1.png</Source>
+      <Name>Sprites\amg1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\Sprites\amg1.xnb</Output>
+      <Time>2011-08-02T20:27:23.8577951-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\thf4.png</Source>
+      <Name>Sprites\thf4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\Sprites\thf4.xnb</Output>
+      <Time>2011-08-02T20:27:23.8877968-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\man1.png</Source>
+      <Name>Sprites\man1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\Sprites\man1.xnb</Output>
+      <Time>2011-08-24T19:57:07.1267747-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\npc3.png</Source>
+      <Name>Sprites\npc3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\Sprites\npc3.xnb</Output>
+      <Time>2011-08-24T19:57:07.1367747-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\wmg1.png</Source>
+      <Name>Sprites\wmg1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\Sprites\wmg1.xnb</Output>
+      <Time>2011-08-24T19:57:07.1467747-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\ygr1.png</Source>
+      <Name>Sprites\ygr1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\Sprites\ygr1.xnb</Output>
+      <Time>2011-08-24T19:57:07.1467747-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileGame\TileGame\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-04-24T08:26:18.6471883-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

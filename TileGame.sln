@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileGame", "TileGame\TileGame\TileGame.csproj", "{A41D1183-C35C-462D-9D79-165DA9902EAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileGameContent", "TileGame\TileGameContent\TileGameContent.contentproj", "{95DCD12F-8D56-4A9B-805E-AAD739342FC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileEngine", "TileEngine\TileEngine.csproj", "{909BAC3F-053A-4E51-8C34-DDFD597F6890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileEditor", "TileEditor\TileEditor.csproj", "{B369A228-7F54-4778-9FED-5621E79D64BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A41D1183-C35C-462D-9D79-165DA9902EAF}.Debug|x86.ActiveCfg = Debug|x86
+		{A41D1183-C35C-462D-9D79-165DA9902EAF}.Debug|x86.Build.0 = Debug|x86
+		{A41D1183-C35C-462D-9D79-165DA9902EAF}.Release|x86.ActiveCfg = Release|x86
+		{A41D1183-C35C-462D-9D79-165DA9902EAF}.Release|x86.Build.0 = Release|x86
+		{95DCD12F-8D56-4A9B-805E-AAD739342FC9}.Debug|x86.ActiveCfg = Debug|x86
+		{95DCD12F-8D56-4A9B-805E-AAD739342FC9}.Release|x86.ActiveCfg = Release|x86
+		{909BAC3F-053A-4E51-8C34-DDFD597F6890}.Debug|x86.ActiveCfg = Debug|x86
+		{909BAC3F-053A-4E51-8C34-DDFD597F6890}.Debug|x86.Build.0 = Debug|x86
+		{909BAC3F-053A-4E51-8C34-DDFD597F6890}.Release|x86.ActiveCfg = Release|x86
+		{909BAC3F-053A-4E51-8C34-DDFD597F6890}.Release|x86.Build.0 = Release|x86
+		{B369A228-7F54-4778-9FED-5621E79D64BC}.Debug|x86.ActiveCfg = Debug|x86
+		{B369A228-7F54-4778-9FED-5621E79D64BC}.Debug|x86.Build.0 = Debug|x86
+		{B369A228-7F54-4778-9FED-5621E79D64BC}.Release|x86.ActiveCfg = Release|x86
+		{B369A228-7F54-4778-9FED-5621E79D64BC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

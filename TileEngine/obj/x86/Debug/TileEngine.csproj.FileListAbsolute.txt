@@ -1,0 +1,6 @@
+c:\users\danny\documents\visual studio 2010\Projects\TileGame\TileEngine\bin\x86\Debug\TileEngine.dll
+c:\users\danny\documents\visual studio 2010\Projects\TileGame\TileEngine\bin\x86\Debug\TileEngine.pdb
+c:\users\danny\documents\visual studio 2010\Projects\TileGame\TileEngine\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\danny\documents\visual studio 2010\Projects\TileGame\TileEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\danny\documents\visual studio 2010\Projects\TileGame\TileEngine\obj\x86\Debug\TileEngine.dll
+c:\users\danny\documents\visual studio 2010\Projects\TileGame\TileEngine\obj\x86\Debug\TileEngine.pdb

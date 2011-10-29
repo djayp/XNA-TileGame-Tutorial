@@ -1,0 +1,13 @@
+C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileEditor\obj\x86\Debug\TileEditor.Form1.resources
+C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileEditor\obj\x86\Debug\TileEditor.Properties.Resources.resources
+C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileEditor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileEditor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileEditor\bin\Debug\TileEditor.exe
+C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileEditor\bin\Debug\TileEditor.pdb
+C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileEditor\bin\Debug\TileEngine.dll
+C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileEditor\bin\Debug\TileEngine.pdb
+C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileEditor\obj\x86\Debug\TileEditor.exe
+C:\Users\Danny\Documents\Visual Studio 2010\Projects\TileGame\TileEditor\obj\x86\Debug\TileEditor.pdb
+C:\Users\Danny\documents\visual studio 2010\Projects\TileGame\TileEditor\bin\Debug\Content\tile.png
+C:\Users\Danny\documents\visual studio 2010\Projects\TileGame\TileEditor\obj\x86\Debug\TileEditor.NewLayerForm.resources
