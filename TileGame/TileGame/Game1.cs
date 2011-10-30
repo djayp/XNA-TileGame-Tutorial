@@ -212,43 +212,126 @@ namespace TileGame
         {
             Point spriteCell = Engine.ConvertPositionToCell(sprite.Center);
 
+            //Points correspond to tiles around the player's tile
             //nullable type
-            Point? upLeft, up, upRight,
-                left, right,
-                downLeft, down, downRight;
+            Point? upLeft = null, up = null, upRight = null,
+                left = null, right = null,
+                downLeft = null, down = null, downRight = null;
 
-            //left = down = right = up = new Point();
+            if (spriteCell.Y > 0)
+                up = new Point(spriteCell.X, spriteCell.Y - 1);
 
-            //left.Y = right.Y = spriteCell.Y;
-            //up.X = down.X = spriteCell.X;
+            if (spriteCell.Y < tileMap.CollisionLayer.Height - 1)
+                down = new Point(spriteCell.X, spriteCell.Y + 1);
 
-            //if (spriteCell.X > 0 && spriteCell.Y > 0)
-            //{
-            //    upLeft.X = spriteCell.X - 1;
-            //    left.X = spriteCell.X - 1;
-            //    downLeft.X = spriteCell.X - 1;
-            //}
+            if (spriteCell.X > 0)
+                left = new Point(spriteCell.X - 1, spriteCell.Y);
+
+            if (spriteCell.X < tileMap.CollisionLayer.Width - 1)
+                right = new Point(spriteCell.X + 1, spriteCell.Y);
+
+            if (spriteCell.X > 0 && spriteCell.Y > 0)
+                upLeft = new Point(spriteCell.X - 1, spriteCell.Y - 1);
+
+            if (spriteCell.X < tileMap.CollisionLayer.Width - 1 && spriteCell.Y > 0)
+                upRight = new Point(spriteCell.X + 1, spriteCell.Y - 1);
+
+            if (spriteCell.X > 0 && spriteCell.Y < tileMap.CollisionLayer.Height - 1)
+                downLeft = new Point(spriteCell.X - 1, spriteCell.Y + 1);
+
+            if (spriteCell.X < tileMap.CollisionLayer.Width - 1 && spriteCell.Y < tileMap.CollisionLayer.Height - 1)
+                downRight = new Point(spriteCell.X + 1, spriteCell.Y + 1);
+
+            //check for nulls
+
+            //if the cell is a tile is unwalkable, 1 = unwalkable tile
+            if (up != null && tileMap.CollisionLayer.GetCellIndex(up.Value) == 1)
+            {
+                Rectangle cellRect = Engine.CreateRectForCell(up.Value);
+                Rectangle spriteRect = sprite.Bounds;
+
+                if (cellRect.Intersects(spriteRect))
+                {
+                    sprite.Position.Y = spriteCell.Y * Engine.TileHeight;
+                }  
+            }
+            if (down != null && tileMap.CollisionLayer.GetCellIndex(down.Value) == 1)
+            {
+                Rectangle cellRect = Engine.CreateRectForCell(down.Value);
+                Rectangle spriteRect = sprite.Bounds;
+
+                if (cellRect.Intersects(spriteRect))
+                {
+                    sprite.Position.Y = down.Value.Y * Engine.TileHeight - sprite.Bounds.Height;
+                }
+            }
+            if (left != null && tileMap.CollisionLayer.GetCellIndex(left.Value) == 1)
+            {
+                Rectangle cellRect = Engine.CreateRectForCell(left.Value);
+                Rectangle spriteRect = sprite.Bounds;
+
+                if (cellRect.Intersects(spriteRect))
+                {
+                    sprite.Position.X = spriteCell.X * Engine.TileWidth;
+                }
+            }
+            if (right != null && tileMap.CollisionLayer.GetCellIndex(right.Value) == 1)
+            {
+                Rectangle cellRect = Engine.CreateRectForCell(right.Value);
+                Rectangle spriteRect = sprite.Bounds;
+
+                if (cellRect.Intersects(spriteRect))
+                {
+                    sprite.Position.X = right.Value.X * Engine.TileWidth - sprite.Bounds.Width;
+                }
+            }
+
+            if (upLeft != null && tileMap.CollisionLayer.GetCellIndex(upLeft.Value) == 1)
+            {
+                Rectangle cellRect = Engine.CreateRectForCell(upLeft.Value);
+                Rectangle spriteRect = sprite.Bounds;
+
+                if (cellRect.Intersects(spriteRect))
+                {
+                    sprite.Position.X = spriteCell.X * Engine.TileWidth;
+                    sprite.Position.Y = spriteCell.Y * Engine.TileHeight;
+                }
+            }
+            if (upRight != null && tileMap.CollisionLayer.GetCellIndex(upRight.Value) == 1)
+            {
+                Rectangle cellRect = Engine.CreateRectForCell(upRight.Value);
+                Rectangle spriteRect = sprite.Bounds;
+
+                if (cellRect.Intersects(spriteRect))
+                {
+                    sprite.Position.X = right.Value.X * Engine.TileWidth - sprite.Bounds.Width;
+                    sprite.Position.Y = spriteCell.Y * Engine.TileHeight;
+                }
+            }
+            if (downLeft != null && tileMap.CollisionLayer.GetCellIndex(downLeft.Value) == 1)
+            {
+                Rectangle cellRect = Engine.CreateRectForCell(downLeft.Value);
+                Rectangle spriteRect = sprite.Bounds;
+
+                if (cellRect.Intersects(spriteRect))
+                {
+                    sprite.Position.X = spriteCell.X * Engine.TileWidth;
+                    sprite.Position.Y = down.Value.Y * Engine.TileHeight - sprite.Bounds.Height;
+                }
+            }
+            if (downRight != null && tileMap.CollisionLayer.GetCellIndex(downRight.Value) == 1)
+            {
+                Rectangle cellRect = Engine.CreateRectForCell(downRight.Value);
+                Rectangle spriteRect = sprite.Bounds;
+
+                if (cellRect.Intersects(spriteRect))
+                {
+                    sprite.Position.X = right.Value.X * Engine.TileWidth - sprite.Bounds.Width;
+                    sprite.Position.Y = down.Value.Y * Engine.TileHeight - sprite.Bounds.Height;
+                }
+            }
+
             
-            //if(spriteCell.X < tileMap.CollisionLayer.Width - 1)
-            //{
-            //    upRight.X = spriteCell.X + 1;
-            //    right.X = spriteCell.X + 1;
-            //    downRight.X = spriteCell.X + 1;
-            //}
-
-            //if (spriteCell.Y > 0)
-            //{
-            //    upLeft.Y = spriteCell.Y - 1;
-            //    up.Y = spriteCell.Y - 1;
-            //    downLeft.Y = spriteCell.Y - 1;
-            //}
-            
-            //if (spriteCell.Y < tileMap.CollisionLayer.Height - 1)
-            //{
-            //    upRight.Y = spriteCell.Y + 1;
-            //    down.Y = spriteCell.Y + 1;
-            //    downRight.Y = spriteCell.Y + 1;
-            //}
         }
 
         private void UpdateSpriteAnimation(Vector2 motion)

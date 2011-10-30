@@ -33,6 +33,17 @@ namespace TileEngine
             }
         }
 
+        public Rectangle Bounds
+        {
+            get 
+            { 
+                Rectangle rect = CurrentAnimation.CurrentRect;
+                rect.X = (int)Position.X;
+                rect.Y = (int)Position.Y;
+                return rect;
+            }
+        }
+
         //for collision detection using circles
         float radius = 16f;
 
